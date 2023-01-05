@@ -1,0 +1,50 @@
+/* 
+table{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+} */
+
+table, tr, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	background-color: rgba(150, 212, 212, 0.2);
+}
+
+td{
+	width: 200px;
+	height: 200px;
+}
+
+td:hover{
+	background-color: rgba(150, 212, 212, 0.4);
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section{
+	padding: 20px;
+}
+
+div{
+	text-align: center;
+	padding: 20px;
+}
+
+.smallimg{
+	position: relative;
+	top: 3px;
+	bottom: 0;
+	width: 20px;
+	height: 20px;
+	
+}
+
+.hidden{
+	display: none;
+}

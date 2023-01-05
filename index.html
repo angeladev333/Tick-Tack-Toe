@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tick Tack Toe!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="ttt.css" type="text/css" />
+  </head>
+  <body>
+
+<!-- 		BANNER -->
+		<section class="hero is-info">
+			<div class="hero-body">
+				<p class="title"> TICK TACK TOE </p>
+				<p class="subtitle"> By Angela and Evelyn <3 </p>
+
+			</div>
+		</section>
+
+<!--     INPUT BOXES -->
+    <div>
+			<img src="./TTT/Cross.png" class="smallimg"/> <input type = "text" placeholder = "Player 1 Name" id="input1">
+      
+			<img src="./TTT/Circle.png" class="smallimg"/> <input type = "text" placeholder = "Player 2 Name" id="input2">
+      
+    </div>
+
+<!-- 		START AND RESTART BUTTONS -->
+    <div>
+      <button class="button is-link is-light" id="startbutton">Start</button>
+      <button class="button is-link is-light" id="restartbutton" disabled>Restart</button>
+    </div>
+
+
+<!-- 		NARRATOR -->
+
+			<p class="hidden" style="text-align: center;" id="narrator">Player 1's Turn!</p>
+
+<!-- 		TTT TABLE -->
+		<section>
+
+			<table style="width:600px;" class="center">
+			  <tr>
+			    <td class="grid"></td>
+			    <td class="grid"></td>
+			    <td class="grid"></td>
+			  </tr>
+			  <tr>
+			    <td class="grid"></td>
+			    <td class="grid"></td>
+			    <td class="grid"></td>
+			  </tr>
+        <tr>
+			    <td class="grid"></td>
+			    <td class="grid"></td>
+			    <td class="grid"></td>
+			  </tr>
+			</table>
+		</section>
+
+		
+<!-- 		TTT GRID (NOPE)-->
+<!-- 		https://css-tricks.com/snippets/css/complete-guide-grid/ -->
+<!--     <section>
+			<div class="table">
+				<div class="box" id="a1"> A3 </div>
+				<div class="box" id="a1"> B3 </div>
+				<div class="box" id="a1"> C3 </div>
+				
+				<div class="box" id="a1"> A2 </div>
+				<div class="box" id="a1"> B2 </div>
+				<div class="box" id="a1"> C2 </div>
+
+				<div class="box" id="a1"> A1 </div>
+				<div class="box" id="a1"> B1 </div>
+				<div class="box" id="a1"> C1 </div>
+
+			</div>
+		</section> -->
+    <script type="text/javascript" src="ttt.js"></script>
+  </body>
+</html>
